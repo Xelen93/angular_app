@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.2/angular.min.js"></script>
+</head>
+<body style="margin:100px;">
+	<input type="number" ng-model="number_one">
+	<span>+</span>
+	<input type="number" ng-model="number_two">
+	<span>=</span>
+	<input type="number" value="{{number_one + number_two}}" disabled>
+</body>
+</html>
