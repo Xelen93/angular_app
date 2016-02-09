@@ -3,10 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.2/angular.min.js"></script>
+	<script type="text/javascript" src="js/angular.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/angular-route.min.js"></script>
 </head>
 <body style="margin:150px;">
-	<my-sum></my-sum>
+	<!-- <my-sum></my-sum> -->
+	<div ng-controller="MainController">
+	<div ng-view></div>
+	</div>
 </body>
 </html>
